@@ -1,0 +1,26 @@
+.mint-button {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  border-radius: 50px;
+  transition: 245ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  margin-top:20px;
+}
+
+.mint-button:hover {
+  transition: 245ms;
+  padding: 10px 33px;
+  transform: translateY(-0px);
+  background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+  color: #ffffff;
+  border: solid 2px #0066cc;
+}
